@@ -1,0 +1,36 @@
+{
+  "name": "magic-todo-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --inline --hot --open",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "Amauri Bechtold Junior",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-beautiful-dnd": "^11.0.3",
+    "@types/react-dom": "^16.9.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "prettier": "^1.18.2",
+    "react-hot-loader": "^4.12.14",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.6.3",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-middleware": "^3.7.1",
+    "webpack-dev-server": "^3.8.1",
+    "webpack-hot-middleware": "^2.25.0"
+  },
+  "dependencies": {
+    "@types/styled-components": "^4.1.19",
+    "react": "^16.9.0",
+    "react-beautiful-dnd": "^11.0.5",
+    "react-dom": "^16.9.0",
+    "react-icons": "^3.7.0",
+    "styled-components": "^4.4.0"
+  }
+}

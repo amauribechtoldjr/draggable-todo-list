@@ -3,4 +3,4 @@
 # How to run
 
 - yarn install
-- yarn server
+- yarn start
